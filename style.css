@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg,#0d1b0d,#1f4721);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+    background:rgba(0,0,0,0.5);
+    border-bottom:3px solid #8cff00;
+}
+
+header h1{
+    color:#8cff00;
+    text-shadow:0 0 10px #8cff00;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:2rem;
+    color:#bfff00;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    background:#8cff00;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero button:hover{
+    transform:scale(1.1);
+}
+
+.card{
+    width:80%;
+    margin:30px auto;
+    padding:25px;
+    background:rgba(255,255,255,0.08);
+    border:2px solid #8cff00;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(140,255,0,0.3);
+}
+
+.card h2{
+    color:#bfff00;
+    margin-bottom:10px;
+}
+
+.card ul{
+    margin-left:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    background:rgba(0,0,0,0.5);
+}
